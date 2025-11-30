@@ -1,0 +1,42 @@
+============================================================
+SHAP ANALYSIS SUMMARY REPORT
+============================================================
+
+HOUSE PRICES DATASET
+------------------------------------------------------------
+Top 10 Most Important Features:
+
+     Feature   Importance
+     TotalSF 16776.936434
+ OverallQual 16233.472719
+   YearBuilt  4320.486312
+YearRemodAdd  4087.689996
+   TotalBath  3651.949974
+   GrLivArea  3244.475496
+ OverallCond  3125.015983
+  BsmtFinSF1  3116.778578
+     LotArea  3079.319391
+  Fireplaces  3016.052092
+
+ENERGY CONSUMPTION DATASET
+------------------------------------------------------------
+Top 10 Most Important Features:
+
+Feature  Importance
+   hour   29.994380
+     T6   14.109988
+   RH_4   14.039916
+   RH_2   13.135928
+     T3   11.932064
+   RH_6   10.941192
+     T8   10.911143
+     T1   10.256932
+   RH_5   10.113749
+     T9    9.982798
+
+KEY INSIGHTS
+------------------------------------------------------------
+1. Feature importance differs across domains; overlap suggests shared drivers.
+2. SHAP magnitudes show contribution strength; sign shows direction.
+3. Dependence plots surface non-linear effects worth testing in ablations.
+4. Waterfall plots reveal individual prediction breakdowns for error analysis.
