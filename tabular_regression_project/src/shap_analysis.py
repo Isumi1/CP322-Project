@@ -47,8 +47,8 @@ ENERGY_TEST_X = METRICS_DIR / "energy_test_X.csv"
 ENERGY_TEST_Y = METRICS_DIR / "energy_test_y.csv"
 
 # Full dataset paths (for background sampling)
-HOUSE_FULL = DATA_DIR / "house_prices" / "house_prices_cleaned.csv"
-ENERGY_FULL = DATA_DIR / "appliances_energy" / "appliances_energy_cleaned.csv"
+HOUSE_FULL = DATA_DIR / "house_prices" / "house_prices_cleaned_v2.csv"
+ENERGY_FULL = DATA_DIR / "appliances_energy" / "appliances_energy_cleaned_v2.csv"
 
 # Set plot style
 plt.style.use("seaborn-v0_8-darkgrid")

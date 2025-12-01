@@ -57,7 +57,7 @@ def load_house_data():
     
     Split: 70% train, 15% val, 15% test (random_state=42)
     """
-    df = pd.read_csv(DATA_DIR / "house_prices" / "house_prices_cleaned.csv")
+    df = pd.read_csv(DATA_DIR / "house_prices" / "house_prices_cleaned_v2.csv")
 
     target_col = "SalePrice"
     assert target_col in df.columns, f"{target_col} not in house_prices_cleaned.csv"
@@ -83,7 +83,7 @@ def load_energy_data():
     
     Split: 70% train, 15% val, 15% test (random_state=42)
     """
-    df = pd.read_csv(DATA_DIR / "appliances_energy" / "appliances_energy_cleaned.csv")
+    df = pd.read_csv(DATA_DIR / "appliances_energy" / "appliances_energy_cleaned_v2.csv")
 
     target_col = "Appliances"
     assert target_col in df.columns, f"{target_col} not in appliances_energy_cleaned.csv"

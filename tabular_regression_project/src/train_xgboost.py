@@ -7,8 +7,8 @@ from xgboost import XGBRegressor
 import optuna
 import pickle
 
-df_house = pd.read_csv('../data/house_prices/house_prices_cleaned.csv')
-df_energy = pd.read_csv('../data/appliances_energy/appliances_energy_cleaned.csv')
+df_house = pd.read_csv('../data/house_prices/house_prices_cleaned_v2.csv')
+df_energy = pd.read_csv('../data/appliances_energy/appliances_energy_cleaned_v2.csv')
 
 X_house = df_house.drop('SalePrice', axis=1)
 y_house = df_house['SalePrice']
