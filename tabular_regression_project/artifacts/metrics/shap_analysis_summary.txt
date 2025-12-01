@@ -7,32 +7,32 @@ HOUSE PRICES DATASET
 Top 10 Most Important Features:
 
      Feature   Importance
-     TotalSF 16874.519758
- OverallQual 14033.316907
-   YearBuilt  4641.671298
-   GrLivArea  4579.715368
-YearRemodAdd  3299.322350
- OverallCond  2923.378688
-  BsmtFinSF1  2717.393573
-  GarageCars  2677.161440
-     LotArea  2562.586170
-   TotalBath  2531.977029
+     TotalSF 12323.830744
+ OverallQual 10582.265854
+   GrLivArea  4760.421022
+   YearBuilt  4304.063753
+     LotArea  3615.093278
+   TotalBath  3367.009135
+ OverallCond  3234.705121
+  Fireplaces  3077.432134
+YearRemodAdd  2421.750807
+  BsmtFinSF1  2219.890626
 
 ENERGY CONSUMPTION DATASET
 ------------------------------------------------------------
 Top 10 Most Important Features:
 
-Feature  Importance
-   hour   29.293289
-   RH_2    7.757742
-     T3    6.238625
-   RH_5    6.165765
- lights    5.777837
-     T1    5.771782
-   RH_3    5.675432
-   RH_1    5.500486
-     T6    5.495846
-     T8    5.457419
+    Feature  Importance
+       hour   33.900757
+       RH_4    8.339500
+         T6    8.330090
+       RH_5    8.124771
+       RH_2    7.592132
+         T1    7.340693
+         T3    7.259630
+       RH_6    7.072102
+Press_mm_hg    6.139685
+     lights    6.049022
 
 KEY INSIGHTS
 ------------------------------------------------------------
